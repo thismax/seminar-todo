@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const controller = require('./controller');
+const controller = require('./controller.js');
 router.post('/todos', controller.todos.post);
 router.get('/todos', controller.todos.get);
 router.put('/todos', controller.todos.put);
